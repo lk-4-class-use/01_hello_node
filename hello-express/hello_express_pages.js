@@ -13,6 +13,14 @@ var express = require('express');
 var app = express();
 app.set('port', 32456);
 
+// If placed here, other functions will be never reached.
+// Order is important.
+// app.use(function(req, res){
+//   res.type('text/plain');
+//   res.status(404);
+//   res.send('404 - Not Found');
+// });
+
 // Use the app's GET method: GET requests are directed to this page
 
 // Map the root URL / to the function that says this is the main page.
