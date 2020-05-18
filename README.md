@@ -1,2 +1,2 @@
 # 01_hello_node
-# Contains lecture video examples.
+Contains lecture video examples.
